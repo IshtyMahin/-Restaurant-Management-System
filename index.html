@@ -15,8 +15,7 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css" />
-    <style>
-</style>
+    <style></style>
   </head>
   <body>
     <header>
@@ -55,6 +54,10 @@
               </li>
               <li><a href="reservations.html">Reservations</a></li>
               <li><a href="contact.html">Contact</a></li>
+              <li><a class="">Register</a></li>
+              <li>
+                <a class="">Login</a>
+              </li>
             </ul>
           </div>
           <a href="/index.html" class="btn btn-ghost text-xl">MyRestaurant</a>
@@ -78,22 +81,22 @@
             </li>
             <li><a href="reservations.html">Reservations</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a class="">Register</a></li>
+            <li><a class="">Login</a></li>
           </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn mx-2">Register</a>
-          <a class="btn mx-2">Login</a>
         </div>
       </nav>
     </header>
     <main class="">
       <!-- welcome section -->
       <section
-        class="introduction p-6 min-h-screen flex items-center justify-center text-white"
+        class="introduction p-2 md:p-6 min-h-screen w-full flex items-center justify-center text-white"
       >
         <div class="backdrop-blur-sm p-4">
-          <h1 class="text-4xl font-bold mb-4">Welcome to Our Restaurant</h1>
-          <p class="text-lg">
+          <h1 class="text-2xl md:text-4xl font-bold mb-4">
+            Welcome to Our Restaurant
+          </h1>
+          <p class="md:text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
             nemo eos quis neque sint error commodi provident distinctio quos ut
             maxime magnam labore, nesciunt, natus, cum quasi hic eius maiores
@@ -105,76 +108,84 @@
         </div>
       </section>
       <!-- Menu section -->
-      <section class="mt-10 p-8">
+      <section class="p-8">
         <h2
-          class="text-3xl font-bold mb-6 text-center border-y-2 p-2 border-[#f26c6a]"
+          class="text-2xl md:text-3xl font-bold mb-6 text-center border-y-2 p-2 border-[#f26c6a]"
         >
           Our Menu
         </h2>
-        <section class="menu-category mb-10 mx-10">
-          <h2 class="text-3xl font-semibold mb-4">Appetizers</h2>
+        <section class="menu-category mb-10 md:mx-10">
+          <h2 class="text-2xl md:text-3xl font-semibold mb-4">Appetizers</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="card bg-base-100 shadow-xl">
-            <figure class="h-60">
-              <img  
-                src="https://img.freepik.com/free-photo/salads-with-quinoa-arugula-radish-tomatoes-cucumber-bowl-wooden-table-healthy-food-diet-detox-vegetarian-concept_2829-6842.jpg?t=st=1717395562~exp=1717399162~hmac=bcdfb8a668321191692873f4b6f6dfa349c3037f4df9c7f709dc4311f9abea20&w=1380"
-                alt="food images"
-                class="object-cover w-full h-full"
-              />
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title text-2xl">
-                Salads
-              </h2>
-              <p><strong>Price:</strong> 12.45$</p>
-              <p><strong>Description:</strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et nemo ducimus omnis mollitia optio ullam veritatis autem iusto aperiam alias?.</p>
+              <figure class="h-60">
+                <img
+                  src="https://img.freepik.com/free-photo/salads-with-quinoa-arugula-radish-tomatoes-cucumber-bowl-wooden-table-healthy-food-diet-detox-vegetarian-concept_2829-6842.jpg?t=st=1717395562~exp=1717399162~hmac=bcdfb8a668321191692873f4b6f6dfa349c3037f4df9c7f709dc4311f9abea20&w=1380"
+                  alt="food images"
+                  class="object-cover w-full h-full"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title text-2xl">Salads</h2>
+                <p><strong>Price:</strong> 12.45$</p>
+                <p>
+                  <strong>Description:</strong>Lorem ipsum dolor sit amet
+                  consectetur, adipisicing elit. Et nemo ducimus omnis mollitia
+                  optio ullam veritatis autem iusto aperiam alias?.
+                </p>
+              </div>
             </div>
-          </div>
-           <div class="card bg-base-100 shadow-xl">
-            <figure class="h-60">
-              <img  
-                src="https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-tomato-sauce-served-plate-dark-surface-closeup_1220-5409.jpg?t=st=1717395572~exp=1717399172~hmac=be1bbedde190409ed049724eded3497494480730b15ab4be100e6afaf6319349&w=740"
-                alt="food images"
-                class="object-cover w-full h-full"
-              />
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title text-2xl">
-                Pasta spaghetti
-              </h2>
-              <p><strong>Price:</strong> 10.35$</p>
-              <p><strong>Description:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, voluptates voluptatibus culpa maiores quae iusto laborum est et placeat cumque?</p>
+            <div class="card bg-base-100 shadow-xl">
+              <figure class="h-60">
+                <img
+                  src="https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-tomato-sauce-served-plate-dark-surface-closeup_1220-5409.jpg?t=st=1717395572~exp=1717399172~hmac=be1bbedde190409ed049724eded3497494480730b15ab4be100e6afaf6319349&w=740"
+                  alt="food images"
+                  class="object-cover w-full h-full"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title text-2xl">Pasta spaghetti</h2>
+                <p><strong>Price:</strong> 10.35$</p>
+                <p>
+                  <strong>Description:</strong> Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Corrupti, voluptates
+                  voluptatibus culpa maiores quae iusto laborum est et placeat
+                  cumque?
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="card bg-base-100 shadow-xl">
-            <figure class="h-60">
-              <img  
-                src="https://img.freepik.com/free-photo/front-view-baked-bell-peppers-with-cheese-greens-meat-inside-plate-dark-background-bake-dinner-dish-food-meal_140725-115579.jpg?t=st=1717395584~exp=1717399184~hmac=1b9b1a9f623daa56dffcea95c395234cce4c0c40604f6dcba7f716efa018064d&w=1380"
-                alt="food images"
-                class="object-cover w-full h-full"
-              />
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title text-2xl">
-                 baked bell-peppers
-              </h2>
-              <p><strong>Price:</strong> 9.85$</p>
-              <p><strong>Description:</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates officia tenetur delectus similique dolorem inventore fugiat fuga optio eaque eum.</p>
+            <div class="card bg-base-100 shadow-xl">
+              <figure class="h-60">
+                <img
+                  src="https://img.freepik.com/free-photo/front-view-baked-bell-peppers-with-cheese-greens-meat-inside-plate-dark-background-bake-dinner-dish-food-meal_140725-115579.jpg?t=st=1717395584~exp=1717399184~hmac=1b9b1a9f623daa56dffcea95c395234cce4c0c40604f6dcba7f716efa018064d&w=1380"
+                  alt="food images"
+                  class="object-cover w-full h-full"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title text-2xl">baked bell-peppers</h2>
+                <p><strong>Price:</strong> 9.85$</p>
+                <p>
+                  <strong>Description:</strong> Lorem ipsum, dolor sit amet
+                  consectetur adipisicing elit. Voluptates officia tenetur
+                  delectus similique dolorem inventore fugiat fuga optio eaque
+                  eum.
+                </p>
+              </div>
             </div>
-          </div>
           </div>
           <div class="flex items-center justify-center my-8">
             <a href="/appetizers.html"
               ><button
-                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 px-16 rounded-lg"
+                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 md:px-16 rounded-lg"
               >
                 See all appetizers
               </button></a
             >
           </div>
         </section>
-        <section class="menu-category mb-10 mx-10">
-          <h2 class="text-3xl font-semibold mb-4">Main Course</h2>
+        <section class="menu-category mb-10 md:mx-10">
+          <h2 class="text-2xl md:text-3xl font-semibold mb-4">Main Course</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="card bg-base-100 shadow-xl">
               <figure class="h-60">
@@ -236,15 +247,15 @@
           <div class="flex items-center justify-center my-8">
             <a href="/mainCourse.html"
               ><button
-                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 px-16 rounded-lg"
+                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 md:px-16 rounded-lg"
               >
                 See all main course
               </button></a
             >
           </div>
         </section>
-        <section class="menu-category mb-10 mx-10">
-          <h2 class="text-3xl font-semibold mb-4">Desserts</h2>
+        <section class="menu-category mb-10 md:mx-10">
+          <h2 class="text-2xl md:text-3xl font-semibold mb-4">Desserts</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="card bg-base-100 shadow-xl">
               <figure class="h-60">
@@ -310,15 +321,15 @@
           <div class="flex items-center justify-center my-8">
             <a href="/desserts.html"
               ><button
-                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 px-16 rounded-lg"
+                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 md:px-16 rounded-lg"
               >
                 See all Desserts
               </button></a
             >
           </div>
         </section>
-        <section class="menu-category mb-10 mx-10">
-          <h2 class="text-3xl font-semibold mb-4">Beverages</h2>
+        <section class="menu-category mb-10 md:mx-10">
+          <h2 class="text-2xl md:text-3xl font-semibold mb-4">Beverages</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="card bg-base-100 shadow-xl">
               <figure class="h-60">
@@ -380,7 +391,7 @@
           <div class="flex items-center justify-center my-8">
             <a href="/beverages.html"
               ><button
-                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 px-16 rounded-lg"
+                class="btn bg-[#f26c6a] hover:bg-[#f34441] text-xl font-bold py-2 md:px-16 rounded-lg"
               >
                 See all beverages
               </button></a
@@ -391,12 +402,12 @@
       <!-- Reservation -->
       <section class="p-8">
         <h2
-          class="text-3xl font-bold mb-6 text-center border-y-2 p-2 border-[#f26c6a]"
+          class="text-2xl md:text-3xl font-bold mb-6 text-center border-y-2 p-2 border-[#f26c6a]"
         >
           Reservation
         </h2>
         <div class="text-center bg-gray-100 shadow-lg py-16">
-          <h2 class="text-3xl font-bold mb-4">Make a Reservation</h2>
+          <h2 class="text-xl md:text-2xl font-bold mb-4">Make a Reservation</h2>
           <p class="mb-6">
             Click the button below to go to the reservation page.
           </p>
@@ -414,12 +425,12 @@
       <!-- About Us -->
       <section class="p-8">
         <h2
-          class="text-3xl font-bold mb-6 text-center border-y-2 p-2 border-[#f26c6a]"
+          class="text-2xl md:text-3xl font-bold mb-6 text-center border-y-2 p-2 border-[#f26c6a]"
         >
           About Us
         </h2>
 
-        <div class="relative pl-12">
+        <div class="relative pl-4 md:px-8">
           <div class="border-l-2 border-gray-300">
             <div
               class="timeline-item mb-10 ml-4 relative flex items-start space-x-4"
@@ -474,7 +485,7 @@
         </div>
       </section>
       <!-- Contact us -->
-      <section class="p-8">
+      <section class="p-8 ">
         <div class="mx-auto">
           <h1
             class="text-3xl font-bold mb-6 text-center border-y-2 p-2 border-[#f26c6a]"
@@ -483,7 +494,7 @@
           </h1>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-gray-50 px-4 pt-4 shadow-md rounded">
+            <div class="bg-gray-50 px-4 pt-4 shadow-md rounded ">
               <h2
                 class="text-2xl font-semibold mb-4 border-b-2 border-black text-center pb-2"
               >

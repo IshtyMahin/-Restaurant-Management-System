@@ -1,11 +1,13 @@
 body{
-    /* color: #f34441; */
+    /* color: #dcb0af; */
+ 
     margin: 0px;
     padding: 0px;
 }
 
 .introduction{
   
-    background-image: url(https://img.freepik.com/free-photo/ripe-tomato-slices-bread-with-pesto-simple-appetizer_157027-4445.jpg?t=st=1717391104~exp=1717394704~hmac=0d7ce09303ca0ad5f5d23013fedd854484a8f3e8b3cabd0e3197f27eb18411b7&w=1300);
-    object-fit: cover;
+    background-image: url(https://img.freepik.com/free-photo/ripe-tomato-slices-bread-with-pesto-simple-appetizer_157027-4445.jpg?t=st=1717391104~exp=1717394704~hmac=0d7ce09303ca0ad5f5d23013fedd854484a8f3e8b3cabd0e3197f27eb18411b7);
+    background-size: cover; 
+    background-position: center;
 }
